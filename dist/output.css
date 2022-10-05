@@ -572,6 +572,10 @@ html {
   width: 40%;
 }
 
+.w-1\/2 {
+  width: 50%;
+}
+
 .items-center {
   align-items: center;
 }
@@ -580,8 +584,16 @@ html {
   justify-content: center;
 }
 
+.overflow-hidden {
+  overflow: hidden;
+}
+
 .rounded-lg {
   border-radius: 0.5rem;
+}
+
+.rounded-xl {
+  border-radius: 0.75rem;
 }
 
 .bg-cream {
