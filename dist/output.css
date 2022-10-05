@@ -410,6 +410,11 @@ video {
   height: auto;
 }
 
+html {
+  font-family: Montserrat, sans-serif;
+  font-size: 14px;
+}
+
 *, ::before, ::after {
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
