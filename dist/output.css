@@ -619,16 +619,8 @@ html {
   background-color: hsl(158 36% 37% / var(--tw-bg-opacity));
 }
 
-.p-4 {
-  padding: 1rem;
-}
-
 .p-8 {
   padding: 2rem;
-}
-
-.p-2 {
-  padding: 0.5rem;
 }
 
 .p-3 {
@@ -637,21 +629,6 @@ html {
 
 .font-fraunces {
   font-family: Fraunces, sans-serif;
-}
-
-.text-lg {
-  font-size: 1.125rem;
-  line-height: 1.75rem;
-}
-
-.text-xl {
-  font-size: 1.25rem;
-  line-height: 1.75rem;
-}
-
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
 }
 
 .text-4xl {
@@ -664,25 +641,22 @@ html {
   line-height: 2rem;
 }
 
+.text-base {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
 .uppercase {
   text-transform: uppercase;
-}
-
-.tracking-widest {
-  letter-spacing: 0.1em;
-}
-
-.tracking-\[2px\] {
-  letter-spacing: 2px;
 }
 
 .tracking-\[3px\] {
   letter-spacing: 3px;
 }
 
-.text-white {
+.text-darkGrayishBlue {
   --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
+  color: hsl(228 12% 48% / var(--tw-text-opacity));
 }
 
 .text-darkCyan {
@@ -690,9 +664,9 @@ html {
   color: hsl(158 36% 37% / var(--tw-text-opacity));
 }
 
-.text-darkGrayishBlue {
+.text-white {
   --tw-text-opacity: 1;
-  color: hsl(228 12% 48% / var(--tw-text-opacity));
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 .line-through {
