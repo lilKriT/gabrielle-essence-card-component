@@ -564,10 +564,6 @@ html {
   min-height: 100vh;
 }
 
-.w-3\/5 {
-  width: 60%;
-}
-
 .w-2\/5 {
   width: 40%;
 }
@@ -588,10 +584,6 @@ html {
   overflow: hidden;
 }
 
-.rounded-lg {
-  border-radius: 0.5rem;
-}
-
 .rounded-xl {
   border-radius: 0.75rem;
 }
@@ -606,7 +598,30 @@ html {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.text-red-500 {
-  --tw-text-opacity: 1;
-  color: rgb(239 68 68 / var(--tw-text-opacity));
+.p-4 {
+  padding: 1rem;
+}
+
+.p-8 {
+  padding: 2rem;
+}
+
+.font-fraunces {
+  font-family: Fraunces, sans-serif;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.tracking-widest {
+  letter-spacing: 0.1em;
+}
+
+.tracking-\[2px\] {
+  letter-spacing: 2px;
+}
+
+.tracking-\[3px\] {
+  letter-spacing: 3px;
 }
