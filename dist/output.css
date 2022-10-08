@@ -694,3 +694,8 @@ html {
   --tw-text-opacity: 1;
   color: hsl(228 12% 48% / var(--tw-text-opacity));
 }
+
+.line-through {
+  -webkit-text-decoration-line: line-through;
+          text-decoration-line: line-through;
+}
