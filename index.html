@@ -26,13 +26,23 @@
         class="w-2/5 bg-white rounded-xl flex flex-col lg:flex-row overflow-hidden"
       >
         <!-- Left column -->
-        <img
+        <!-- <img
           src="./src/images/image-product-desktop.jpg"
           alt="A bottle of Parfum"
           width="600"
           height="900"
           class="w-1/2"
-        />
+        /> -->
+        <picture>
+          <source
+            srcset="./src/images/image-product-desktop.jpg"
+            media="(min-width: 800px)"
+          />
+          <img
+            src="./src/images/image-product-mobile.jpg"
+            alt="A bottle of our perfume"
+          />
+        </picture>
         <!-- Right column -->
         <div class="p-8 flex flex-col justify-between">
           <h3 class="uppercase tracking-[3px]">Perfume</h3>
