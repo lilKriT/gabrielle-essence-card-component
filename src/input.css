@@ -7,3 +7,9 @@
     @apply font-montserrat text-[14px];
   }
 }
+
+@layer utilities {
+  * {
+    outline: 0px solid red;
+  }
+}
