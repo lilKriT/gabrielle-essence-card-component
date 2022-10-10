@@ -23,7 +23,7 @@
     <section class="min-h-screen bg-cream flex justify-center items-center">
       <!-- Information box -->
       <div
-        class="w-2/5 bg-white rounded-xl flex flex-col lg:flex-row overflow-hidden"
+        class="w-2/5 min-w-[500px] mx-4 bg-white rounded-xl flex flex-col lg:flex-row overflow-hidden"
       >
         <!-- Left column -->
         <!-- <img
@@ -33,18 +33,20 @@
           height="900"
           class="w-1/2"
         /> -->
-        <picture>
-          <source
-            srcset="./src/images/image-product-desktop.jpg"
-            media="(min-width: 800px)"
-          />
-          <img
-            src="./src/images/image-product-mobile.jpg"
-            alt="A bottle of our perfume"
-          />
-        </picture>
+        <div class="w-full lg:w-1/2">
+          <picture>
+            <source
+              srcset="./src/images/image-product-desktop.jpg"
+              media="(min-width: 800px)"
+            />
+            <img
+              src="./src/images/image-product-mobile.jpg"
+              alt="A bottle of our perfume"
+            />
+          </picture>
+        </div>
         <!-- Right column -->
-        <div class="p-8 flex flex-col justify-between">
+        <div class="p-8 flex flex-col justify-between w-1/2">
           <h3 class="uppercase tracking-[3px]">Perfume</h3>
           <h2 class="font-fraunces text-4xl">
             Gabrielle Essence Eau De Parfum

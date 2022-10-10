@@ -556,6 +556,11 @@ html {
   --tw-backdrop-sepia:  ;
 }
 
+.mx-4 {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
 .flex {
   display: flex;
 }
@@ -574,6 +579,10 @@ html {
 
 .w-full {
   width: 100%;
+}
+
+.min-w-\[500px\] {
+  min-width: 500px;
 }
 
 .flex-row {
@@ -715,6 +724,10 @@ html {
 }
 
 @media (min-width: 1024px) {
+  .lg\:w-1\/2 {
+    width: 50%;
+  }
+
   .lg\:flex-row {
     flex-direction: row;
   }
