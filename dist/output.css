@@ -560,9 +560,8 @@ html {
   margin: 1rem;
 }
 
-.mx-4 {
-  margin-left: 1rem;
-  margin-right: 1rem;
+.m-8 {
+  margin: 2rem;
 }
 
 .flex {
@@ -573,28 +572,12 @@ html {
   min-height: 100vh;
 }
 
-.w-2\/5 {
-  width: 40%;
-}
-
-.w-1\/2 {
-  width: 50%;
-}
-
 .w-full {
   width: 100%;
 }
 
-.w-3\/5 {
-  width: 60%;
-}
-
-.min-w-\[400px\] {
-  min-width: 400px;
-}
-
-.min-w-\[500px\] {
-  min-width: 500px;
+.max-w-\[600px\] {
+  max-width: 600px;
 }
 
 .flex-col {
@@ -719,18 +702,6 @@ html {
 @media (min-width: 1024px) {
   .lg\:w-1\/2 {
     width: 50%;
-  }
-
-  .lg\:w-2\/5 {
-    width: 40%;
-  }
-
-  .lg\:min-w-\[500px\] {
-    min-width: 500px;
-  }
-
-  .lg\:min-w-\[600px\] {
-    min-width: 600px;
   }
 
   .lg\:flex-row {
